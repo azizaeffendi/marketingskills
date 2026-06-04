@@ -5,8 +5,8 @@
   "author": {
     "name": "azizaeffendi"
   },
-  "homepage": "https://github.com/azizaeffendi/marketingskils",
-  "repository": "https://github.com/azizaeffendi/marketingskils",
+  "homepage": "https://github.com/azizaeffendi/marketingskills",
+  "repository": "https://github.com/azizaeffendi/marketingskills",
   "license": "MIT",
   "skills": "./skills"
 }

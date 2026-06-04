@@ -7,7 +7,7 @@ Guidelines for AI agents working in this repository.
 This repository contains **Agent Skills** for AI agents following the [Agent Skills specification](https://agentskills.io/specification.md). Skills install to `.agents/skills/` (the cross-agent standard). This repo also serves as a **Claude Code plugin marketplace** via `.claude-plugin/marketplace.json`.
 
 - **Name**: Marketing Skills
-- **GitHub**: [azizaeffendi/marketingskils](https://github.com/azizaeffendi/marketingskils)
+- **GitHub**: [azizaeffendi/marketingskills](https://github.com/azizaeffendi/marketingskills)
 - **Creator**: azizaeffendi
 - **License**: MIT
 
@@ -132,7 +132,7 @@ description: When the user wants to optimize conversions on any marketing page. 
 This repo also serves as a plugin marketplace. The manifest at `.claude-plugin/marketplace.json` lists all skills for installation via:
 
 ```bash
-/plugin marketplace add azizaeffendi/marketingskils
+/plugin marketplace add azizaeffendi/marketingskills
 /plugin install marketing-skills
 ```
 
@@ -198,7 +198,7 @@ For tools without native MCP servers (HubSpot, Salesforce, Meta Ads, LinkedIn Ad
 When using any skill from this repository:
 
 1. **Once per session**, on first skill use, check for updates:
-   - Fetch `VERSIONS.md` from GitHub: https://raw.githubusercontent.com/azizaeffendi/marketingskils/main/VERSIONS.md
+   - Fetch `VERSIONS.md` from GitHub: https://raw.githubusercontent.com/azizaeffendi/marketingskills/main/VERSIONS.md
    - Compare versions against local skill files
 
 2. **Only prompt if meaningful**:

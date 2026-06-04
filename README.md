@@ -6,7 +6,7 @@ Built by [azizaeffendi](https://github.com/azizaeffendi).
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 
-Run into a problem or have a question? [Open an issue](https://github.com/azizaeffendi/marketingskils/issues) — we're happy to help.
+Run into a problem or have a question? [Open an issue](https://github.com/azizaeffendi/marketingskills/issues) — we're happy to help.
 
 ## What are Skills?
 
@@ -104,13 +104,13 @@ Use [npx skills](https://github.com/vercel-labs/skills) to install skills direct
 
 ```bash
 # Install all skills
-npx skills add azizaeffendi/marketingskils
+npx skills add azizaeffendi/marketingskills
 
 # Install specific skills
-npx skills add azizaeffendi/marketingskils --skill page-cro copywriting
+npx skills add azizaeffendi/marketingskills --skill page-cro copywriting
 
 # List available skills
-npx skills add azizaeffendi/marketingskils --list
+npx skills add azizaeffendi/marketingskills --list
 ```
 
 This automatically installs to your `.agents/skills/` directory (and symlinks into `.claude/skills/` for Claude Code compatibility).
@@ -121,7 +121,7 @@ Install via Claude Code's built-in plugin system:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add azizaeffendi/marketingskils
+/plugin marketplace add azizaeffendi/marketingskills
 
 # Install all marketing skills
 /plugin install marketing-skills
@@ -132,7 +132,7 @@ Install via Claude Code's built-in plugin system:
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/azizaeffendi/marketingskils.git
+git clone https://github.com/azizaeffendi/marketingskills.git
 cp -r marketingskills/skills/* .agents/skills/
 ```
 
@@ -141,7 +141,7 @@ cp -r marketingskills/skills/* .agents/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/azizaeffendi/marketingskils.git .agents/marketingskills
+git submodule add https://github.com/azizaeffendi/marketingskills.git .agents/marketingskills
 ```
 
 Then reference skills from `.agents/marketingskills/skills/`.
@@ -158,13 +158,13 @@ Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across mu
 
 ```bash
 # Install all skills
-npx skillkit install azizaeffendi/marketingskils
+npx skillkit install azizaeffendi/marketingskills
 
 # Install specific skills
-npx skillkit install azizaeffendi/marketingskils --skill page-cro copywriting
+npx skillkit install azizaeffendi/marketingskills --skill page-cro copywriting
 
 # List available skills
-npx skillkit install azizaeffendi/marketingskils --list
+npx skillkit install azizaeffendi/marketingskills --list
 ```
 
 ## Upgrading from v1.0
